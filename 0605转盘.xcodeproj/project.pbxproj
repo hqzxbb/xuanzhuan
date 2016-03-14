@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F506CFC1B21D78C0015A445 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F506CFB1B21D78C0015A445 /* main.m */; };
+		3F506CFF1B21D78C0015A445 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F506CFE1B21D78C0015A445 /* AppDelegate.m */; };
+		3F506D021B21D78C0015A445 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F506D011B21D78C0015A445 /* ViewController.m */; };
+		3F506D051B21D78C0015A445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D031B21D78C0015A445 /* Main.storyboard */; };
+		3F506D071B21D78C0015A445 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D061B21D78C0015A445 /* Images.xcassets */; };
+		3F506D0A1B21D78C0015A445 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D081B21D78C0015A445 /* LaunchScreen.xib */; };
+		3F506D161B21D78C0015A445 /* _605__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F506D151B21D78C0015A445 /* _605__Tests.m */; };
+		3F506D671B21D7E80015A445 /* LuckyAnimal.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D501B21D7E80015A445 /* LuckyAnimal.png */; };
+		3F506D681B21D7E80015A445 /* LuckyAnimal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D511B21D7E80015A445 /* LuckyAnimal@2x.png */; };
+		3F506D691B21D7E80015A445 /* LuckyAnimalPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D521B21D7E80015A445 /* LuckyAnimalPressed.png */; };
+		3F506D6A1B21D7E80015A445 /* LuckyAnimalPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D531B21D7E80015A445 /* LuckyAnimalPressed@2x.png */; };
+		3F506D6B1B21D7E80015A445 /* LuckyAstrology.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D541B21D7E80015A445 /* LuckyAstrology.png */; };
+		3F506D6C1B21D7E80015A445 /* LuckyAstrology@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D551B21D7E80015A445 /* LuckyAstrology@2x.png */; };
+		3F506D6D1B21D7E80015A445 /* LuckyAstrologyPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D561B21D7E80015A445 /* LuckyAstrologyPressed.png */; };
+		3F506D6E1B21D7E80015A445 /* LuckyAstrologyPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D571B21D7E80015A445 /* LuckyAstrologyPressed@2x.png */; };
+		3F506D6F1B21D7E80015A445 /* LuckyBackground-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D581B21D7E80015A445 /* LuckyBackground-568h@2x.jpg */; };
+		3F506D701B21D7E80015A445 /* LuckyBackground@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D591B21D7E80015A445 /* LuckyBackground@2x.jpg */; };
+		3F506D711B21D7E80015A445 /* LuckyBaseBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D5A1B21D7E80015A445 /* LuckyBaseBackground@2x.png */; };
+		3F506D721B21D7E80015A445 /* LuckyCenterButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D5B1B21D7E80015A445 /* LuckyCenterButton@2x.png */; };
+		3F506D731B21D7E80015A445 /* LuckyCenterButtonPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D5C1B21D7E80015A445 /* LuckyCenterButtonPressed@2x.png */; };
+		3F506D741B21D7E80015A445 /* LuckyConfirmBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D5D1B21D7E80015A445 /* LuckyConfirmBack@2x.png */; };
+		3F506D751B21D7E80015A445 /* LuckyConfirmClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D5E1B21D7E80015A445 /* LuckyConfirmClose@2x.png */; };
+		3F506D761B21D7E80015A445 /* LuckyLeftPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D5F1B21D7E80015A445 /* LuckyLeftPressed@2x.png */; };
+		3F506D771B21D7E80015A445 /* LuckyMidPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D601B21D7E80015A445 /* LuckyMidPressed@2x.png */; };
+		3F506D781B21D7E80015A445 /* LuckyRightPressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D611B21D7E80015A445 /* LuckyRightPressed@2x.png */; };
+		3F506D791B21D7E80015A445 /* LuckyRotateWheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D621B21D7E80015A445 /* LuckyRotateWheel.png */; };
+		3F506D7A1B21D7E80015A445 /* LuckyRotateWheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D631B21D7E80015A445 /* LuckyRotateWheel@2x.png */; };
+		3F506D7B1B21D7E80015A445 /* LuckyRototeSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D641B21D7E80015A445 /* LuckyRototeSelected.png */; };
+		3F506D7C1B21D7E80015A445 /* LuckyRototeSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D651B21D7E80015A445 /* LuckyRototeSelected@2x.png */; };
+		3F506D7D1B21D7E80015A445 /* LuckyThreeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D661B21D7E80015A445 /* LuckyThreeButton@2x.png */; };
+		3F506D801B21D82F0015A445 /* HBTurnPlate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F506D7F1B21D82F0015A445 /* HBTurnPlate.m */; };
+		3F506D821B21D8810015A445 /* HBTurnPlate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F506D811B21D8810015A445 /* HBTurnPlate.xib */; };
+		3FB5028F1B2440DA00DA78D2 /* HBWheelBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB5028E1B2440DA00DA78D2 /* HBWheelBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F506D101B21D78C0015A445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F506CEE1B21D78B0015A445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F506CF51B21D78B0015A445;
+			remoteInfo = "0605转盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F506CF61B21D78B0015A445 /* 0605转盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0605转盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F506CFA1B21D78C0015A445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F506CFB1B21D78C0015A445 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F506CFD1B21D78C0015A445 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F506CFE1B21D78C0015A445 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F506D001B21D78C0015A445 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F506D011B21D78C0015A445 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F506D041B21D78C0015A445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F506D061B21D78C0015A445 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3F506D091B21D78C0015A445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3F506D0F1B21D78C0015A445 /* 0605转盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "0605转盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F506D141B21D78C0015A445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F506D151B21D78C0015A445 /* _605__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _605__Tests.m; sourceTree = "<group>"; };
+		3F506D501B21D7E80015A445 /* LuckyAnimal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAnimal.png; sourceTree = "<group>"; };
+		3F506D511B21D7E80015A445 /* LuckyAnimal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAnimal@2x.png"; sourceTree = "<group>"; };
+		3F506D521B21D7E80015A445 /* LuckyAnimalPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAnimalPressed.png; sourceTree = "<group>"; };
+		3F506D531B21D7E80015A445 /* LuckyAnimalPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAnimalPressed@2x.png"; sourceTree = "<group>"; };
+		3F506D541B21D7E80015A445 /* LuckyAstrology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAstrology.png; sourceTree = "<group>"; };
+		3F506D551B21D7E80015A445 /* LuckyAstrology@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAstrology@2x.png"; sourceTree = "<group>"; };
+		3F506D561B21D7E80015A445 /* LuckyAstrologyPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyAstrologyPressed.png; sourceTree = "<group>"; };
+		3F506D571B21D7E80015A445 /* LuckyAstrologyPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyAstrologyPressed@2x.png"; sourceTree = "<group>"; };
+		3F506D581B21D7E80015A445 /* LuckyBackground-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LuckyBackground-568h@2x.jpg"; sourceTree = "<group>"; };
+		3F506D591B21D7E80015A445 /* LuckyBackground@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LuckyBackground@2x.jpg"; sourceTree = "<group>"; };
+		3F506D5A1B21D7E80015A445 /* LuckyBaseBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyBaseBackground@2x.png"; sourceTree = "<group>"; };
+		3F506D5B1B21D7E80015A445 /* LuckyCenterButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyCenterButton@2x.png"; sourceTree = "<group>"; };
+		3F506D5C1B21D7E80015A445 /* LuckyCenterButtonPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyCenterButtonPressed@2x.png"; sourceTree = "<group>"; };
+		3F506D5D1B21D7E80015A445 /* LuckyConfirmBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyConfirmBack@2x.png"; sourceTree = "<group>"; };
+		3F506D5E1B21D7E80015A445 /* LuckyConfirmClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyConfirmClose@2x.png"; sourceTree = "<group>"; };
+		3F506D5F1B21D7E80015A445 /* LuckyLeftPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyLeftPressed@2x.png"; sourceTree = "<group>"; };
+		3F506D601B21D7E80015A445 /* LuckyMidPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyMidPressed@2x.png"; sourceTree = "<group>"; };
+		3F506D611B21D7E80015A445 /* LuckyRightPressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyRightPressed@2x.png"; sourceTree = "<group>"; };
+		3F506D621B21D7E80015A445 /* LuckyRotateWheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyRotateWheel.png; sourceTree = "<group>"; };
+		3F506D631B21D7E80015A445 /* LuckyRotateWheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyRotateWheel@2x.png"; sourceTree = "<group>"; };
+		3F506D641B21D7E80015A445 /* LuckyRototeSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LuckyRototeSelected.png; sourceTree = "<group>"; };
+		3F506D651B21D7E80015A445 /* LuckyRototeSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyRototeSelected@2x.png"; sourceTree = "<group>"; };
+		3F506D661B21D7E80015A445 /* LuckyThreeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LuckyThreeButton@2x.png"; sourceTree = "<group>"; };
+		3F506D7E1B21D82F0015A445 /* HBTurnPlate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTurnPlate.h; sourceTree = "<group>"; };
+		3F506D7F1B21D82F0015A445 /* HBTurnPlate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTurnPlate.m; sourceTree = "<group>"; };
+		3F506D811B21D8810015A445 /* HBTurnPlate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBTurnPlate.xib; sourceTree = "<group>"; };
+		3FB5028D1B2440DA00DA78D2 /* HBWheelBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBWheelBtn.h; sourceTree = "<group>"; };
+		3FB5028E1B2440DA00DA78D2 /* HBWheelBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBWheelBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F506CF31B21D78B0015A445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F506D0C1B21D78C0015A445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F506CED1B21D78B0015A445 = {
+			isa = PBXGroup;
+			children = (
+				3F506CF81B21D78B0015A445 /* 0605转盘 */,
+				3F506D121B21D78C0015A445 /* 0605转盘Tests */,
+				3F506CF71B21D78B0015A445 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F506CF71B21D78B0015A445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F506CF61B21D78B0015A445 /* 0605转盘.app */,
+				3F506D0F1B21D78C0015A445 /* 0605转盘Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F506CF81B21D78B0015A445 /* 0605转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				3F506CFD1B21D78C0015A445 /* AppDelegate.h */,
+				3F506CFE1B21D78C0015A445 /* AppDelegate.m */,
+				3F506D001B21D78C0015A445 /* ViewController.h */,
+				3F506D011B21D78C0015A445 /* ViewController.m */,
+				3FB5028D1B2440DA00DA78D2 /* HBWheelBtn.h */,
+				3FB5028E1B2440DA00DA78D2 /* HBWheelBtn.m */,
+				3F506D7E1B21D82F0015A445 /* HBTurnPlate.h */,
+				3F506D7F1B21D82F0015A445 /* HBTurnPlate.m */,
+				3F506D811B21D8810015A445 /* HBTurnPlate.xib */,
+				3F506D031B21D78C0015A445 /* Main.storyboard */,
+				3F506D061B21D78C0015A445 /* Images.xcassets */,
+				3F506D081B21D78C0015A445 /* LaunchScreen.xib */,
+				3F506CF91B21D78B0015A445 /* Supporting Files */,
+			);
+			path = "0605转盘";
+			sourceTree = "<group>";
+		};
+		3F506CF91B21D78B0015A445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F506D1F1B21D7960015A445 /* picture */,
+				3F506CFA1B21D78C0015A445 /* Info.plist */,
+				3F506CFB1B21D78C0015A445 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F506D121B21D78C0015A445 /* 0605转盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3F506D151B21D78C0015A445 /* _605__Tests.m */,
+				3F506D131B21D78C0015A445 /* Supporting Files */,
+			);
+			path = "0605转盘Tests";
+			sourceTree = "<group>";
+		};
+		3F506D131B21D78C0015A445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F506D141B21D78C0015A445 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F506D1F1B21D7960015A445 /* picture */ = {
+			isa = PBXGroup;
+			children = (
+				3F506D501B21D7E80015A445 /* LuckyAnimal.png */,
+				3F506D511B21D7E80015A445 /* LuckyAnimal@2x.png */,
+				3F506D521B21D7E80015A445 /* LuckyAnimalPressed.png */,
+				3F506D531B21D7E80015A445 /* LuckyAnimalPressed@2x.png */,
+				3F506D541B21D7E80015A445 /* LuckyAstrology.png */,
+				3F506D551B21D7E80015A445 /* LuckyAstrology@2x.png */,
+				3F506D561B21D7E80015A445 /* LuckyAstrologyPressed.png */,
+				3F506D571B21D7E80015A445 /* LuckyAstrologyPressed@2x.png */,
+				3F506D581B21D7E80015A445 /* LuckyBackground-568h@2x.jpg */,
+				3F506D591B21D7E80015A445 /* LuckyBackground@2x.jpg */,
+				3F506D5A1B21D7E80015A445 /* LuckyBaseBackground@2x.png */,
+				3F506D5B1B21D7E80015A445 /* LuckyCenterButton@2x.png */,
+				3F506D5C1B21D7E80015A445 /* LuckyCenterButtonPressed@2x.png */,
+				3F506D5D1B21D7E80015A445 /* LuckyConfirmBack@2x.png */,
+				3F506D5E1B21D7E80015A445 /* LuckyConfirmClose@2x.png */,
+				3F506D5F1B21D7E80015A445 /* LuckyLeftPressed@2x.png */,
+				3F506D601B21D7E80015A445 /* LuckyMidPressed@2x.png */,
+				3F506D611B21D7E80015A445 /* LuckyRightPressed@2x.png */,
+				3F506D621B21D7E80015A445 /* LuckyRotateWheel.png */,
+				3F506D631B21D7E80015A445 /* LuckyRotateWheel@2x.png */,
+				3F506D641B21D7E80015A445 /* LuckyRototeSelected.png */,
+				3F506D651B21D7E80015A445 /* LuckyRototeSelected@2x.png */,
+				3F506D661B21D7E80015A445 /* LuckyThreeButton@2x.png */,
+			);
+			name = picture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F506CF51B21D78B0015A445 /* 0605转盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F506D191B21D78C0015A445 /* Build configuration list for PBXNativeTarget "0605转盘" */;
+			buildPhases = (
+				3F506CF21B21D78B0015A445 /* Sources */,
+				3F506CF31B21D78B0015A445 /* Frameworks */,
+				3F506CF41B21D78B0015A445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "0605转盘";
+			productName = "0605转盘";
+			productReference = 3F506CF61B21D78B0015A445 /* 0605转盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F506D0E1B21D78C0015A445 /* 0605转盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F506D1C1B21D78C0015A445 /* Build configuration list for PBXNativeTarget "0605转盘Tests" */;
+			buildPhases = (
+				3F506D0B1B21D78C0015A445 /* Sources */,
+				3F506D0C1B21D78C0015A445 /* Frameworks */,
+				3F506D0D1B21D78C0015A445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F506D111B21D78C0015A445 /* PBXTargetDependency */,
+			);
+			name = "0605转盘Tests";
+			productName = "0605转盘Tests";
+			productReference = 3F506D0F1B21D78C0015A445 /* 0605转盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F506CEE1B21D78B0015A445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = HB;
+				TargetAttributes = {
+					3F506CF51B21D78B0015A445 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3F506D0E1B21D78C0015A445 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3F506CF51B21D78B0015A445;
+					};
+				};
+			};
+			buildConfigurationList = 3F506CF11B21D78B0015A445 /* Build configuration list for PBXProject "0605转盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F506CED1B21D78B0015A445;
+			productRefGroup = 3F506CF71B21D78B0015A445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F506CF51B21D78B0015A445 /* 0605转盘 */,
+				3F506D0E1B21D78C0015A445 /* 0605转盘Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F506CF41B21D78B0015A445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F506D6F1B21D7E80015A445 /* LuckyBackground-568h@2x.jpg in Resources */,
+				3F506D6E1B21D7E80015A445 /* LuckyAstrologyPressed@2x.png in Resources */,
+				3F506D671B21D7E80015A445 /* LuckyAnimal.png in Resources */,
+				3F506D6B1B21D7E80015A445 /* LuckyAstrology.png in Resources */,
+				3F506D6C1B21D7E80015A445 /* LuckyAstrology@2x.png in Resources */,
+				3F506D691B21D7E80015A445 /* LuckyAnimalPressed.png in Resources */,
+				3F506D741B21D7E80015A445 /* LuckyConfirmBack@2x.png in Resources */,
+				3F506D711B21D7E80015A445 /* LuckyBaseBackground@2x.png in Resources */,
+				3F506D731B21D7E80015A445 /* LuckyCenterButtonPressed@2x.png in Resources */,
+				3F506D781B21D7E80015A445 /* LuckyRightPressed@2x.png in Resources */,
+				3F506D7D1B21D7E80015A445 /* LuckyThreeButton@2x.png in Resources */,
+				3F506D751B21D7E80015A445 /* LuckyConfirmClose@2x.png in Resources */,
+				3F506D7C1B21D7E80015A445 /* LuckyRototeSelected@2x.png in Resources */,
+				3F506D791B21D7E80015A445 /* LuckyRotateWheel.png in Resources */,
+				3F506D6D1B21D7E80015A445 /* LuckyAstrologyPressed.png in Resources */,
+				3F506D051B21D78C0015A445 /* Main.storyboard in Resources */,
+				3F506D7A1B21D7E80015A445 /* LuckyRotateWheel@2x.png in Resources */,
+				3F506D721B21D7E80015A445 /* LuckyCenterButton@2x.png in Resources */,
+				3F506D7B1B21D7E80015A445 /* LuckyRototeSelected.png in Resources */,
+				3F506D681B21D7E80015A445 /* LuckyAnimal@2x.png in Resources */,
+				3F506D0A1B21D78C0015A445 /* LaunchScreen.xib in Resources */,
+				3F506D821B21D8810015A445 /* HBTurnPlate.xib in Resources */,
+				3F506D701B21D7E80015A445 /* LuckyBackground@2x.jpg in Resources */,
+				3F506D071B21D78C0015A445 /* Images.xcassets in Resources */,
+				3F506D761B21D7E80015A445 /* LuckyLeftPressed@2x.png in Resources */,
+				3F506D6A1B21D7E80015A445 /* LuckyAnimalPressed@2x.png in Resources */,
+				3F506D771B21D7E80015A445 /* LuckyMidPressed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F506D0D1B21D78C0015A445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F506CF21B21D78B0015A445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F506D021B21D78C0015A445 /* ViewController.m in Sources */,
+				3F506D801B21D82F0015A445 /* HBTurnPlate.m in Sources */,
+				3F506CFF1B21D78C0015A445 /* AppDelegate.m in Sources */,
+				3FB5028F1B2440DA00DA78D2 /* HBWheelBtn.m in Sources */,
+				3F506CFC1B21D78C0015A445 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F506D0B1B21D78C0015A445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F506D161B21D78C0015A445 /* _605__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F506D111B21D78C0015A445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F506CF51B21D78B0015A445 /* 0605转盘 */;
+			targetProxy = 3F506D101B21D78C0015A445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F506D031B21D78C0015A445 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F506D041B21D78C0015A445 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F506D081B21D78C0015A445 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F506D091B21D78C0015A445 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F506D171B21D78C0015A445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F506D181B21D78C0015A445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F506D1A1B21D78C0015A445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0605转盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F506D1B1B21D78C0015A445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "0605转盘/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3F506D1D1B21D78C0015A445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "0605转盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0605转盘.app/0605转盘";
+			};
+			name = Debug;
+		};
+		3F506D1E1B21D78C0015A445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "0605转盘Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/0605转盘.app/0605转盘";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F506CF11B21D78B0015A445 /* Build configuration list for PBXProject "0605转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F506D171B21D78C0015A445 /* Debug */,
+				3F506D181B21D78C0015A445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F506D191B21D78C0015A445 /* Build configuration list for PBXNativeTarget "0605转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F506D1A1B21D78C0015A445 /* Debug */,
+				3F506D1B1B21D78C0015A445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F506D1C1B21D78C0015A445 /* Build configuration list for PBXNativeTarget "0605转盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F506D1D1B21D78C0015A445 /* Debug */,
+				3F506D1E1B21D78C0015A445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F506CEE1B21D78B0015A445 /* Project object */;
+}
